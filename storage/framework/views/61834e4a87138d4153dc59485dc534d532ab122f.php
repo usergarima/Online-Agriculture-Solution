@@ -1,0 +1,3 @@
+<?php echo $__env->make('master.header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+<?php echo $__env->yieldContent('main-contain'); ?>
+<?php echo $__env->make('master.footer', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\Dell\Desktop\6th Sem Project\agroproject\resources\views/master/main.blade.php ENDPATH**/ ?>
